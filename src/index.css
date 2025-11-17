@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-roboto: "Roboto", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-jost: "Jost", sans-serif;
+
+  --color-primary-400: #7d4797;
+  --color-primary-500: #4d2c5e;
+
+  --my-aspect-ratio: 464/238;
+
+  --shadow-border: 0 4px 25px 0 rgba(0,0,0,0.10);
+}
+
+@layer components {
+  .container-3xl {
+    max-width: 1562px;
+    margin: 0 auto;
+    padding-inline: 16px;
+  }
+  .bg-hero {
+    background-image: url("/src/assets/images/hero/group.svg");
+    background-position: bottom 1.25rem center;
+    background-repeat: no-repeat;
+  }
+}
+
+@layer base {
+  body {
+    font-family: var(--font-roboto);
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
