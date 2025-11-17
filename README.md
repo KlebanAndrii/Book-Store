@@ -1,4 +1,5 @@
 # React + Vite + Tailwind CSS
+### This project, titled Book Store﻿, is a responsive web application built using React, Vite, and Tailwind CSS. It employs flex﻿ and grid﻿ layouts to ensure smooth adaptability across devices of different sizes. The project features a custom-made swiper﻿ carousel created entirely without external libraries, demonstrating efficient and lightweight UI interaction.
 
 👉  - [Book Store](https://booksestore.netlify.app/)
 
