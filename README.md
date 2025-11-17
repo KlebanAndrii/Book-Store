@@ -2,7 +2,7 @@
 
 👉  - [Book Store](https://booksestore.netlify.app/)
 
-- [Book Store with Laptop and phone](public/book-laptop.png)
+![Book Store with Laptop and phone](public/book-laptop.png)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
